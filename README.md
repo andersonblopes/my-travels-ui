@@ -3,6 +3,15 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 tools:
+Node JS: https://nodejs.org/en/download/
+Latest LTS Version: 12.18.3 (includes npm 6.14.6)
+
+Angular CLI: https://cli.angular.io/
+npm install -g @angular/cli
+
+Angular Material: https://material.angular.io/
+ng add @angular/material
+
 Angular Flex-Layout Demos:https://tburleson-layouts-demos.firebaseapp.com/#/docs
 Angular Flex-Layout: https://www.npmjs.com/package/@angular/flex-layout
 npm i @angular/flex-layout
