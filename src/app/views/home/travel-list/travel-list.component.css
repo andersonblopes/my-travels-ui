@@ -9,3 +9,25 @@
 .card-content{
     margin: 0.5%;
 }
+.img-style{
+    height: 5%;
+    width: 10%;
+}
+
+.mat-card-travel{
+    border: 1px solid #CFD8DC; 
+    border-radius: 4px 3px 6px / 2px 4px; 
+    padding-top: 15px; 
+    padding-left: 0%; 
+    padding-right: 0%; 
+    padding-bottom: 0%;
+    margin: 5px;
+}
+
+.mat-card-title-travel{
+    padding-left:10px; 
+    padding-top: 0px; 
+    padding-right: 15px; 
+    margin-bottom: 0px; 
+    min-height: 70px;
+}

@@ -1,24 +1,36 @@
 <mat-tab-group mat-align-tabs="start" class="space-components">
     <mat-tab label="Brazil">
-      <div fxLayout="row" fxLayoutAlign="start center" class="content-space">
-        <div class="card-content">
+      <div fxLayout="row wrap" fxLayoutAlign="start center" class="content-space">
+        <ng-container *ngFor='let travel of travelList' class="card-content">
+          
+          <mat-card class="mat-card-travel">
 
-          <mat-card class="mat-card-live" fxFlex="0 1 calc(33.3% - 11px)"
-          fxFlex.lt-md="0 1 calc(50% - 11px)"
-          fxFlex.lt-sm="100%">
-            <mat-card-header>
-            </mat-card-header>
-            <img mat-card-image src="https://cdn.webshopapp.com/shops/94414/files/52123490/flag-of-brazil.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-title class="mat-card-title-travel">
+              <div class="row">
+                <p>
+                  <span>{{travel.description}}</span>
+                  <span></span>
+                  <span>{{travel.date}}</span>
+                </p>
+              </div>
+
+
+            </mat-card-title>
             <mat-card-content>
+             <div>
+              <img  mat-card-image src="https://cdn.webshopapp.com/shops/94414/files/52123490/flag-of-brazil.jpg" alt="Photo of a flag" class="img-style">
+             </div>
               <p>
                 Travels to Brazil
               </p>
             </mat-card-content>
           </mat-card>
-        
-        </div>
+        </ng-container>
       </div>
     </mat-tab>
+
+
+
     <mat-tab label="Belgium">
       <div fxLayout="row" fxLayoutAlign="start center" >
         Travels to Belgium
